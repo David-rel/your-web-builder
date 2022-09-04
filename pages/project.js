@@ -1,9 +1,9 @@
-import type { NextPage } from 'next'
+import React from 'react'
 import Link from 'next/link'
 
-const Home: NextPage = () => {
+const project = () => {
   return (
-    <div>home
+    <div>project
        <Link href='/project'>
             Project
         </Link>
@@ -20,4 +20,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default project
